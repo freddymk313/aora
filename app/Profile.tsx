@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 const Profile = () => {
   return (
     <View>
-      <Text>Profile</Text>
+      <Text className="text-primary">Profile</Text>
     </View>
   );
 };
