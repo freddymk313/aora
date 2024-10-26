@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import { Link } from "expo-router";
 
-export default function _layout() {
+export default function index() {
   return (
     <View style={styles.container}>
-      <Text className="text-2xl text-red-500">Aora</Text>
-      <Link href={"/Profile"} style={{ color: "blue" }}>
+      <Text>Aora</Text>
+      <Link href={"/profile"} style={{ color: "blue" }}>
         Go to Profile!
       </Link>
     </View>
